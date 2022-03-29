@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'UTM Avo';
+    src: url('../fonts/UTMAvo/UTMAvo-BoldItalic.eot');
+    src: url('../fonts/UTMAvo/UTMAvo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UTMAvo/UTMAvo-BoldItalic.woff2') format('woff2'),
+        url('../fonts/UTMAvo/UTMAvo-BoldItalic.woff') format('woff'),
+        url('../fonts/UTMAvo/UTMAvo-BoldItalic.ttf') format('truetype'),
+        url('../fonts/UTMAvo/UTMAvo-BoldItalic.svg#UTMAvo-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'UTM Avo';
+    src: url('../fonts/UTMAvo/UTMAvoBold.eot');
+    src: url('../fonts/UTMAvo/UTMAvoBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UTMAvo/UTMAvoBold.woff2') format('woff2'),
+        url('../fonts/UTMAvo/UTMAvoBold.woff') format('woff'),
+        url('../fonts/UTMAvo/UTMAvoBold.ttf') format('truetype'),
+        url('../fonts/UTMAvo/UTMAvoBold.svg#UTMAvoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UTM Avo';
+    src: url('../fonts/UTMAvo/UTMAvo-Italic.eot');
+    src: url('../fonts/UTMAvo/UTMAvo-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UTMAvo/UTMAvo-Italic.woff2') format('woff2'),
+        url('../fonts/UTMAvo/UTMAvo-Italic.woff') format('woff'),
+        url('../fonts/UTMAvo/UTMAvo-Italic.ttf') format('truetype'),
+        url('../fonts/UTMAvo/UTMAvo-Italic.svg#UTMAvo-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'UTM Avo';
+    src: url('../fonts/UTMAvo/UTMAvo.eot');
+    src: url('../fonts/UTMAvo/UTMAvo.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UTMAvo/UTMAvo.woff2') format('woff2'),
+        url('../fonts/UTMAvo/UTMAvo.woff') format('woff'),
+        url('../fonts/UTMAvo/UTMAvo.ttf') format('truetype'),
+        url('../fonts/UTMAvo/UTMAvo.svg#UTMAvo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UTM Roman Classic';
+    src: url('../fonts/UTMRomanClassic/UTMRomanClassic.eot');
+    src: url('../fonts/UTMRomanClassic/UTMRomanClassic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UTMRomanClassic/UTMRomanClassic.woff2') format('woff2'),
+        url('../fonts/UTMRomanClassic/UTMRomanClassic.woff') format('woff'),
+        url('../fonts/UTMRomanClassic/UTMRomanClassic.ttf') format('truetype'),
+        url('../fonts/UTMRomanClassic/UTMRomanClassic.svg#UTMRomanClassic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

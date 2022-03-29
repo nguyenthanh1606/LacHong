@@ -1,0 +1,144 @@
+@import '../Pages/home/_typeOne.scss';
+.btn-ds1{
+    display: inline-block;
+    padding: 10px 2rem;
+    background-color: $color-link;
+    border: 1px solid $color-link;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    
+    svg,i{
+        padding-left: 0.5rem;
+    }
+    &:hover{
+        background-color: #fff;
+        box-shadow: 0 0 10px 1px rgba(206,152,9,0.5);
+        color: $color-link;
+    }
+}
+.btn-ds2{
+    display: inline-block;
+    padding: 10px 2rem;
+    background-color: #fff;
+    border: 1px solid $color-link;
+    color: $color-link;
+    transition: all 0.3s ease-in-out;
+    
+    svg,i{
+        padding-left: 0.5rem;
+    }
+    &:hover{
+        background-color: $color-link;
+        box-shadow: 0 0 10px 1px rgba(206,152,9,0.5);
+        color: #fff;
+    }
+}
+.s-head{
+    margin-bottom: 2rem;
+    .title{
+        font-family: $font-title;
+    }
+}
+section{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    float: left;
+}
+.welcome{
+    margin-top: 3rem;
+    float: none;
+    &-title{
+        font-family: $font-title;
+        margin-bottom: 1.5rem;
+    }
+}
+.typeRooms{
+    &-head{
+        margin-bottom: 3rem;
+        .title{
+            font-family: $font-title;
+        }
+    }
+    &-mid{
+        margin-bottom: 2rem;
+        &--2{
+            align-self: center;
+            background-color: #ededec;
+            position: relative;
+            padding: 4rem 3rem;
+            &::before{
+                content: '';
+                color: #8c7b21;
+                position: absolute;
+                left: 0;
+                top: 2rem;
+                font-size: 20px;
+                width: 10%;
+                height: 2px;
+                background-color: #8c7b21;
+            }
+            &::after{
+                content: url('../../images/icon-3-dot.png');
+                font-size: 0;                
+                position: absolute;
+                left: calc(10% + 5px);
+                top: calc(2rem - 1px);
+            }
+        }
+    }
+    &--button{
+        .btn-ds1:hover{
+            background-color: $color-link;
+            color: #fff;
+        }
+        .btn-ds2:hover{
+            background-color: #fff;
+            color: $color-link;
+        }
+    }
+    .typeRooms-name{
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        padding: 8px 1.5rem;
+        background-color: #7f5d01;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+.plugins{
+    &-head{
+        margin-bottom: 3rem;
+        .title{
+            font-family: $font-title;
+        }
+    }
+    &-mid{
+        margin-bottom: 2rem;
+        &--2{
+            align-self: center;
+            background-color: #ededec;
+            position: relative;
+            padding: 4rem 3rem;
+            text-align: right;
+            &::before{
+                content: url('../../images/icon-3-dot.png');
+                font-size: 0;                
+                position: absolute;
+                right: calc(10% + 5px);
+                top: calc(2rem - 1px);
+                color: #8c7b21;
+            }
+            &::after{
+                content: '';
+                width: 10%;
+                height: 2px;
+                background-color: #8c7b21;
+                right: 0;
+                top: 2rem;
+                position: absolute;
+                font-size: 20px;
+            }
+        }
+    }
+}

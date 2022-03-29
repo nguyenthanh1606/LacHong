@@ -1,0 +1,53 @@
+.banner-home{
+    position: relative;
+    .banner-img{
+        img{
+            max-height: 80vh;
+            object-fit: cover;
+            object-position: bottom;
+        }
+    }
+    .pLeftEnd{
+        position: absolute;
+        left: 0;
+        bottom: 78px;
+        width: 100%;
+    }
+    .banner-content{
+        color: $color-white;
+        &--title{
+            max-width: 50%;
+            font-family: $font-title;
+            line-height: 1.2;
+            margin-bottom: 1.25rem;
+        }
+        &--desc{
+            max-width: 50%;
+            line-height: 1.2;
+        }
+        &--button{
+            a{
+                color: $color-white;
+                padding: 10px 1rem;
+                border: 1px solid $color-white;
+                transition: all 0.3s ease-in-out;
+            }
+            svg,i{
+                padding-left: 0.5rem;
+            }
+            &:hover{
+                a{
+                    color: $color-primary;
+                    border-color: $color-primary;
+                }
+            }
+        }
+    }
+}
+.form-booking{
+    height: 96px;
+    background-color: #ce9809;
+    position: relative;
+    z-index: 1000;
+    margin-top: -48px;
+}
